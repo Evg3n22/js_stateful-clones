@@ -57,7 +57,7 @@ function transformStateWithClones(state, actions) {
         break;
 
       default:
-        continue;
+        break;
     }
 
     transformHistory.push({ ...stateCopy });
